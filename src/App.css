@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    background-color: hsl(202, 86%, 94%);
+}
+
+.lime {
+    color: hsl(61, 70%, 52%);
+}
+
+.lime-bg {
+    background-color: hsl(61, 70%, 52%);
+}
+
+.red {
+    color: hsl(4, 69%, 50%); 
+}
+
+.slate-100 {
+    color: hsl(202, 86%, 94%);
+}
+
+.slate-300 {
+    color: hsl(203, 41%, 72%);
+}
+
+.slate-500 {
+    color: hsl(200, 26%, 54%);
+}
+
+.slate-700 {
+    color: hsl(200, 24%, 40%);
+}
+
+.slate-900 {
+    color: hsl(202, 55%, 16%);
+}
+
+.slate-bg-lighter {
+    background-color: hsl(202, 55%, 12%);
+}
+
+.slate-bg-light {
+    background-color: hsl(203, 41%, 72%);
+}
+
+.slate-bg {
+    background-color: hsl(202, 55%, 16%);
+}
+
+.lime-shadow {
+    box-shadow: 0 -4px 0 0 hsl(61, 70%, 52%);
+}
+
+.input-border {
+    border-color: hsl(200, 26%, 54%);
+}
+
+.input-border-focused{
+    border-color: hsl(202, 55%, 16%);
+}

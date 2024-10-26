@@ -1,11 +1,12 @@
 import './App.css'
+import MortgageCalculator from './components/MortgageCalculator'
 
 function App() {
 
 
   return (
-    <div className='main'>
-      <h1>Hello</h1>
+    <div className='flex justify-center items-center min-h-screen'>
+      <MortgageCalculator />
     </div>
   )
 }
