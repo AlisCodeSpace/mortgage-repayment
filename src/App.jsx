@@ -1,5 +1,5 @@
 import './App.css'
-import { MortgageProvider } from './components/contexts/Context'
+import { MortgageProvider } from './contexts/Context'
 import MortgageCalculator from './components/MortgageCalculator'
 
 function App() {

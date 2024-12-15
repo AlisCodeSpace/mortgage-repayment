@@ -1,7 +1,7 @@
 import React from 'react'
 
 import emptyResultImage from '../assets/images/illustration-empty.svg'
-import { useMortage } from './contexts/Context'
+import { useMortage } from '../contexts/Context'
 
 const Result = () => {
   const { monthlyRepayments, totalRepayments } = useMortage()

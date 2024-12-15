@@ -4,7 +4,7 @@ import calculator from '../../assets/images/icon-calculator.svg';
 import MortgageAmount from './MortgageAmount';
 import TermAndInterest from './TermAndInterest';
 import RadioButtons from './RadioButtons';
-import { useMortage } from '../contexts/Context';
+import { useMortage } from '../../contexts/Context';
 
 const Calculator = () => {
   const [focused, setFocused] = useState(null);
@@ -32,6 +32,8 @@ const Calculator = () => {
   };
 
   const clearAll = () => {
+    setMonthlyRepayments(0)
+    setTotalRepayments(0)
     setMortgageAmount('');
     setTermInput('');
     setIntRateInput('');
